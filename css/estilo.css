@@ -43,8 +43,9 @@ top: 14%;
 }
 footer{
     width:100%;
-    height:200px;
-    border: solid black 1px;
+    background-color: #7B9E35;
+    padding: 30Px;
+    display: flex;
 
 }
 ul li{
@@ -100,24 +101,49 @@ h1{
     display: flex;
     margin-top: 20Px;
 }
-#botonFavorito{
+#BotonFavorito{
     flex: 50%;
-
 }
 #botonUbicacion{
     flex: 50%;
 }
 #marcoFavorito{
+    background-image: url(/img/Recurso\ 13.png);
+}
+#disenoBoton:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+.disenoBoton{
     background-color: #cccccc;
     width: 250Px;
-    background-image: url(/img/Recurso\ 13.png);
     background-repeat: no-repeat;
     background-size: 28Px;
     padding: 20Px 0Px 20Px 59Px;
     background-position: left 30Px center;
     border-radius: 10Px;
 }
-#marcoFavorito:hover{
-    opacity: 80%;
-    cursor: pointer;
+#MarcoUbicacion{
+    background-image: url(../img/Recurso\ 2.png);
+}
+ul li:last-child{
+    border-right: none;
+}
+#marcoMenufooter{
+    flex: 15%;
+}
+#marcoDetallefooter{
+    flex: 35%;
+}
+#marcoRedesfooter{
+    flex: 45%;
+}
+.footerRedes{
+    display: inline;
+}
+li img{
+    width: 28Px;
+}
+.footerRedes li{
+    border: none;
 }
