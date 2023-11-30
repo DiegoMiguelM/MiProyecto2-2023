@@ -40,13 +40,13 @@ top: 14%;
     background-color: #D3EE9F;
     display: flex;
     padding-top: 50Px;
+    height: 600Px;
 }
 footer{
     width:100%;
     background-color: #7B9E35;
-    padding: 30Px;
-    display: flex;
-
+    position: absolute;
+    bottom: 0Px;
 }
 ul li{
     display: inline;
@@ -133,10 +133,18 @@ ul li:last-child{
     flex: 15%;
 }
 #marcoDetallefooter{
+    position: relative;
     flex: 35%;
+    text-align: center;
+    animation: move 5s infinite;
+}
+@keyframes move{
+    from{Top :0Px;}
+    To{top: 40Px;}
 }
 #marcoRedesfooter{
     flex: 45%;
+    text-align: right;
 }
 .footerRedes{
     display: inline;
@@ -146,4 +154,24 @@ li img{
 }
 .footerRedes li{
     border: none;
+}
+#footerMenu{
+    display: flex;
+    padding: 30Px;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10Px 0;
+    font-weight: bold;
+    font-size: 20Px;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 29Px;
+}
+li img:hover{
+    opacity: 60%;
+    width: 4%;
 }
