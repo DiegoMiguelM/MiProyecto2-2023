@@ -175,3 +175,32 @@ li img:hover{
     opacity: 60%;
     width: 4%;
 }
+#formularioDatos{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20Px;
+}
+input, select, textarea{
+    width: 50%;
+    padding: 10Px;
+    border-radius: 8Px;
+    outline: none;
+    
+}
+input[type=button]{
+    background-color: aquamarine;
+    margin: 25Px;
+}
+
+label{
+    width: 50%;
+    padding: 15Px 0Px 5Px 12Px;
+    text-align: left;
+    display: inline-block;
+}
+input[type=button]:hover{
+    cursor: Pointer;
+    background: linear-gradient(45deg, greenyellow, dodgerblue)
+}
+
